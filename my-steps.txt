@@ -135,7 +135,40 @@ menu.txt        plants	  sweets
 my-steps.txt    proteins	  veggies
 
 ### Step 4
+Initialized empty Git repository in /Users/aj/Desktop/unit1-git-practice/.git/
+aj@Adrianas-MacBook-Air unit1-git-practice % git add . 
+aj@Adrianas-MacBook-Air unit1-git-practice % git status
+On branch master
 
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .DS_Store
+	new file:   my-steps.txt
+	new file:   plants/carrot.txt
+	new file:   plants/pea.txt
+	new file:   proteins/.DS_Store
+	new file:   proteins/meats/crab.txt
+	new file:   proteins/tofu.txt
+	new file:   sweets/.DS_Store
+	new file:   sweets/donut.txt
+	new file:   veggies/carrot.txt
+	new file:   veggies/pea.txt
+aj@Adrianas-MacBook-Air unit1-git-practice % git commit -m 'first commit'
+[master (root-commit) 598d05b] first commit
+ 11 files changed, 147 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/.DS_Store
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/.DS_Store
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 ### Step 5
 
