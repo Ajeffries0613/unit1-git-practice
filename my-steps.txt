@@ -171,10 +171,38 @@ aj@Adrianas-MacBook-Air unit1-git-practice % git commit -m 'first commit'
  create mode 100644 veggies/pea.txt
 
 ### Step 5
-
+Username for 'https://github.com': Ajeffries0613
+Password for 'https://Ajeffries0613@github.com': 
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 3.40 KiB | 3.40 MiB/s, done.
+Total 14 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Ajeffries0613/unit1-git-practice.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 ### Step 6
+aj@Adrianas-MacBook-Air unit1-git-practice % touch menu.txt 
+aj@Adrianas-MacBook-Air unit1-git-practice % ls
+menu.txt	plants		sweets
+my-steps.txt	proteins	veggies
+aj@Adrianas-MacBook-Air unit1-git-practice % git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	menu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
